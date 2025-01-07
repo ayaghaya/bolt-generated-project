@@ -1,0 +1,194 @@
+{
+   "btn_cancel": {
+      "message": "Cancel"
+   },
+   "btn_confirm": {
+      "message": "OK"
+   },
+   "btn_downloadAllData": {
+      "message": "Download All"
+   },
+   "btn_editor_viewdata": {
+      "message": "View"
+   },
+   "btn_logpanel_showLog": {
+      "message": "View Log"
+   },
+   "btn_nextTable": {
+      "message": "Next ?"
+   },
+   "btn_page_close": {
+      "message": "Close"
+   },
+   "btn_page_startRun": {
+      "message": "Start"
+   },
+   "btn_page_targetElem_add": {
+      "message": "Add"
+   },
+   "btn_rechoose": {
+      "message": "Reselect Area"
+   },
+   "btn_refresh": {
+      "message": "Refresh"
+   },
+   "btn_reset": {
+      "message": "Reset"
+   },
+   "dlg_previewData_title": {
+      "message": "Selected Elements Preview"
+   },
+   "extAuthor": {
+      "message": "webutler (webutler.ai@hotmail.com)"
+   },
+   "extDesc": {
+      "message": "Webutler.AI uses AI to predict which data is most relevant on a HTML page and allows saving it to Excel."
+   },
+   "extName": {
+      "message": "Webutler.AI - AI powered web scraper"
+   },
+   "lbl_datatable_empty_text": {
+      "message": "No data"
+   },
+   "lbl_editor_selectBlockField": {
+      "message": "Select Block Field"
+   },
+   "lbl_editor_selectLoadBtn": {
+      "message": "Select Load Data Button"
+   },
+   "lbl_editor_selectNextBtn": {
+      "message": "Select Next Page Button"
+   },
+   "lbl_editor_selectScrollElem": {
+      "message": "Select Scroll Element"
+   },
+   "lbl_editor_selectZone": {
+      "message": "Select Area"
+   },
+   "lbl_logpanel_runlog": {
+      "message": "Logs"
+   },
+   "lbl_page_delaytime": {
+      "message": "Delay Time (seconds)"
+   },
+   "lbl_page_loadPageBtn": {
+      "message": "Load Button"
+   },
+   "lbl_page_loadPagetimes": {
+      "message": "Load Times"
+   },
+   "lbl_page_nextPageBtn": {
+      "message": "Next Page Button"
+   },
+   "lbl_page_pagetimes": {
+      "message": "Page Times"
+   },
+   "lbl_page_scrollElement": {
+      "message": "Scroll Element"
+   },
+   "lbl_page_scrollTimes": {
+      "message": "Scroll Times"
+   },
+   "lbl_page_scroll_pageByPage": {
+      "message": "Scroll page by page(Before)"
+   },
+   "lbl_page_title": {
+      "message": "Paging Setting"
+   },
+   "lbl_page_type": {
+      "message": "Paging Method"
+   },
+   "lbl_pagekey_clickLoadMore": {
+      "message": "Click to load more"
+   },
+   "lbl_pagekey_fixedNextPageBtn": {
+      "message": "Fix next page button"
+   },
+   "lbl_pagekey_multipleNextPageBtn": {
+      "message": "Multiple next page buttons"
+   },
+   "lbl_pagekey_nextPageBtnByCurrentPage": {
+      "message": "The next page based on the current page"
+   },
+   "lbl_pagekey_none": {
+      "message": "None"
+   },
+   "lbl_pagekey_scrollDownToLoad": {
+      "message": "Scroll to the bottom load"
+   },
+   "lbl_pagekey_scrollPageByPage": {
+      "message": "Scroll page by page and extract"
+   },
+   "log_agentContext_delay_time": {
+      "message": "Wait {0} seconds"
+   },
+   "log_agentContext_extractdata": {
+      "message": "Extract data result: {0} items were collected and {1} items were saved"
+   },
+   "log_agentContext_extractdata_allexists": {
+      "message": "All collected data already exists"
+   },
+   "log_agentContext_extractdata_none": {
+      "message": "Extract data result:No data collected"
+   },
+   "log_agentContext_page_add": {
+      "message": "Extract pages add, current pages is: {0}"
+   },
+   "log_agentContext_page_clickBtn": {
+      "message": "Click on the button"
+   },
+   "log_agentContext_page_clickBtn_target_notexist": {
+      "message": "Click button result: The target element does not exist"
+   },
+   "log_agentContext_page_clickLoad": {
+      "message": "Click to load"
+   },
+   "log_agentContext_page_clickLoad_target_notexist": {
+      "message": "Click to load result: The target element does not exist"
+   },
+   "log_agentContext_page_element_not_exist": {
+      "message": "The next page button does not exist"
+   },
+   "log_agentContext_page_nopage": {
+      "message": "No need for pagination, collection completed"
+   },
+   "log_agentContext_page_pageByPage_end": {
+      "message": "End scrolling page by page"
+   },
+   "log_agentContext_page_pageByPage_start": {
+      "message": "Start scrolling page by page"
+   },
+   "log_agentContext_page_scrollLoad": {
+      "message": "Scroll down load"
+   },
+   "log_agentContext_page_scroll_dist_small": {
+      "message": "Scroll result: scroll distance too small, exit page by page scrolling"
+   },
+   "log_agentContext_page_scroll_load_success": {
+      "message": "Scroll result: successfully loaded"
+   },
+   "log_agentContext_page_scroll_success": {
+      "message": "Scroll successful, wait for {0} s"
+   },
+   "log_agentContext_page_start_scroll": {
+      "message": "Start scrolling"
+   },
+   "log_agentContext_page_util_max": {
+      "message": "The maximum page has been reached"
+   },
+   "log_agentContext_start": {
+      "message": "Start extract data"
+   },
+   "log_agentContext_systemerror": {
+      "message": "System exception"
+   },
+   "log_agentContext_systemout": {
+      "message": " Exit "
+   },
+   "msg_datatable_dtable_atleast_one": {
+      "message": "Fields keep at least one column"
+   },
+   "msg_rechoose_zoneArea": {
+      "message": "No suitable data, do you want to reselect the area?"
+   }
+}

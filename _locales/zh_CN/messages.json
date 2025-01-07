@@ -1,0 +1,194 @@
+{
+   "btn_cancel": {
+      "message": "取消"
+   },
+   "btn_confirm": {
+      "message": "确定"
+   },
+   "btn_downloadAllData": {
+      "message": "下载所有数据"
+   },
+   "btn_editor_viewdata": {
+      "message": "预览"
+   },
+   "btn_logpanel_showLog": {
+      "message": "查看日志"
+   },
+   "btn_nextTable": {
+      "message": "下一个表?"
+   },
+   "btn_page_close": {
+      "message": "关闭"
+   },
+   "btn_page_startRun": {
+      "message": "开始运行"
+   },
+   "btn_page_targetElem_add": {
+      "message": "添加"
+   },
+   "btn_rechoose": {
+      "message": "重新选择区域"
+   },
+   "btn_refresh": {
+      "message": "刷新"
+   },
+   "btn_reset": {
+      "message": "重置"
+   },
+   "dlg_previewData_title": {
+      "message": "选择元素预览"
+   },
+   "extAuthor": {
+      "message": "webutler (webutler.ai@hotmail.com)"
+   },
+   "extDesc": {
+      "message": "Webutler.AI 是一款适用于任何网站的自动数据提取工具。它基于人工智能来分析出网页最合适的数据，并允许将其下载并保存到Excel。"
+   },
+   "extName": {
+      "message": "Webutler.AI - 最简单的网页数据自动采集"
+   },
+   "lbl_datatable_empty_text": {
+      "message": "暂无数据"
+   },
+   "lbl_editor_selectBlockField": {
+      "message": "选择列表字段"
+   },
+   "lbl_editor_selectLoadBtn": {
+      "message": "选择加载数据按钮"
+   },
+   "lbl_editor_selectNextBtn": {
+      "message": "选择下一页按钮"
+   },
+   "lbl_editor_selectScrollElem": {
+      "message": "选择滚动元素"
+   },
+   "lbl_editor_selectZone": {
+      "message": "选择识别区域"
+   },
+   "lbl_logpanel_runlog": {
+      "message": "运行日志"
+   },
+   "lbl_page_delaytime": {
+      "message": "延迟时间(秒)"
+   },
+   "lbl_page_loadPageBtn": {
+      "message": "点击加载按钮"
+   },
+   "lbl_page_loadPagetimes": {
+      "message": "点击加载次数"
+   },
+   "lbl_page_nextPageBtn": {
+      "message": "下一页按钮"
+   },
+   "lbl_page_pagetimes": {
+      "message": "翻页次数"
+   },
+   "lbl_page_scrollElement": {
+      "message": "滚动元素"
+   },
+   "lbl_page_scrollTimes": {
+      "message": "滚动次数"
+   },
+   "lbl_page_scroll_pageByPage": {
+      "message": "逐页滚动到底(采集前)"
+   },
+   "lbl_page_title": {
+      "message": "分页设置"
+   },
+   "lbl_page_type": {
+      "message": "分页方式"
+   },
+   "lbl_pagekey_clickLoadMore": {
+      "message": "点击加载更多"
+   },
+   "lbl_pagekey_fixedNextPageBtn": {
+      "message": "固定下一页"
+   },
+   "lbl_pagekey_multipleNextPageBtn": {
+      "message": "多个下一页按钮"
+   },
+   "lbl_pagekey_nextPageBtnByCurrentPage": {
+      "message": "根据当前页确定下一页"
+   },
+   "lbl_pagekey_none": {
+      "message": "无"
+   },
+   "lbl_pagekey_scrollDownToLoad": {
+      "message": "滚动加载到底"
+   },
+   "lbl_pagekey_scrollPageByPage": {
+      "message": "逐页滚动并抽取"
+   },
+   "log_agentContext_delay_time": {
+      "message": "等待{0}秒"
+   },
+   "log_agentContext_extractdata": {
+      "message": "采集数据结果:采集到{0}条,保存{1}条"
+   },
+   "log_agentContext_extractdata_allexists": {
+      "message": "采集数据全部已存在"
+   },
+   "log_agentContext_extractdata_none": {
+      "message": "采集数据结果:未采集到数据"
+   },
+   "log_agentContext_page_add": {
+      "message": "采集页数+1,当前采集页数为:{0}"
+   },
+   "log_agentContext_page_clickBtn": {
+      "message": "点击按钮"
+   },
+   "log_agentContext_page_clickBtn_target_notexist": {
+      "message": "点击按钮结果:目标元素不存在"
+   },
+   "log_agentContext_page_clickLoad": {
+      "message": "点击加载"
+   },
+   "log_agentContext_page_clickLoad_target_notexist": {
+      "message": "点击加载结果:目标元素不存在"
+   },
+   "log_agentContext_page_element_not_exist": {
+      "message": "翻页按钮不存在"
+   },
+   "log_agentContext_page_nopage": {
+      "message": "无需分页,采集结束"
+   },
+   "log_agentContext_page_pageByPage_end": {
+      "message": "逐页滚动结束"
+   },
+   "log_agentContext_page_pageByPage_start": {
+      "message": "逐页滚动开始"
+   },
+   "log_agentContext_page_scrollLoad": {
+      "message": "滚动加载"
+   },
+   "log_agentContext_page_scroll_dist_small": {
+      "message": "滚动结果:滚动距离过小,退出逐页滚动"
+   },
+   "log_agentContext_page_scroll_load_success": {
+      "message": "滚动结果:加载成功"
+   },
+   "log_agentContext_page_scroll_success": {
+      "message": "滚动成功,等待{0}s"
+   },
+   "log_agentContext_page_start_scroll": {
+      "message": "开始滚动"
+   },
+   "log_agentContext_page_util_max": {
+      "message": "已达到最大采集次数"
+   },
+   "log_agentContext_start": {
+      "message": "开始采集数据"
+   },
+   "log_agentContext_systemerror": {
+      "message": "系统异常"
+   },
+   "log_agentContext_systemout": {
+      "message": "系统退出"
+   },
+   "msg_datatable_dtable_atleast_one": {
+      "message": "字段至少保留一列"
+   },
+   "msg_rechoose_zoneArea": {
+      "message": "未识别出合适的列表,是否重新选择区域?"
+   }
+}

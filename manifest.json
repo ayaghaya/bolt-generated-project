@@ -1,0 +1,41 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "static/icons/webutler16.png",
+         "38": "static/icons/webutler48.png"
+      },
+      "default_title": "__MSG_extName__"
+   },
+   "author": "__MSG_extAuthor__",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "/content/client/index.css" ],
+      "js": [ "/static/js/jquery-3.5.1.min.js", "/static/js/jQuery.drag.js", "/content/client/index.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; worker-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "static/icons/webutler128.png",
+      "16": "static/icons/webutler16.png",
+      "48": "static/icons/webutler48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv1PQkj1pHHtR7N2YoLXDkwFIYnSKdUpL9/9GapxOfZbQWWj9xpk5bW4+5/7szmk88YIx5jlsVlPkr/icpt0xXUUGWXfg+ESXVZ7YVpv3F0w/KVqpV7ddRfptH+hfIZuROc2w8s81Njkdv4llkpeg3SW0K9Kkb0dMUI9yR/bznZg5FvmUcB+Ch5RYhdRHQxnYsp9UwPgkGBY6mxoydUqgv0ZbRWZVPCj8TsuTIt7NpnguXLI2Ravyne8EjjCFwqf4kd3SnMbn6beyjRvvGd6ZhHsROxyIW46YYLfAD6Z3er9TPnVOpJrn0Ak0Ogs5llQOwD5wd5NwCGozAR1SIXkMkQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "activeTab", "storage", "unlimitedStorage" ],
+   "short_name": "Webutler.AI",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "/static/**", "/content/iframe/**", "options/options.html**", "/content/**" ]
+   } ]
+}
